@@ -1,7 +1,6 @@
-@import 'vars';
-@import 'global';
-@import 'fonts';
-
+@import "vars";
+@import "global";
+@import "fonts";
 
 // ============== HEADER ===============
 
@@ -154,8 +153,8 @@
 
   &::before {
     position: absolute;
-    content: '\f107';
-    font-family: 'icomoon';
+    content: "\f107";
+    font-family: "icomoon";
     font-size: 16px;
     color: #707070;
     top: 0;
@@ -200,7 +199,6 @@
   margin-top: 40px;
 
   &:hover {
-
     .user__menu {
       height: auto;
       border-width: 1px;
@@ -218,7 +216,7 @@
   width: 158px;
   top: 69px;
   left: 20px;
-  transition: all .3s;
+  transition: all 0.3s;
   height: 0;
   overflow: hidden;
 
@@ -272,7 +270,7 @@
   display: flex;
   align-items: center;
   width: 269px;
-  transition: all .3s;
+  transition: all 0.3s;
   position: relative;
 
   &::before {
@@ -335,7 +333,6 @@
   background-color: $green;
   text-align: center;
   width: 100px;
-
 }
 
 .basket__btn-checkout {
@@ -398,7 +395,7 @@
 
     &::before {
       position: absolute;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       font-size: 14px;
       color: #fff;
       left: 18px;
@@ -481,9 +478,6 @@
     color: $red;
   }
 }
-
-
-
 
 // ============== SEARCH ===============
 
@@ -583,7 +577,7 @@
     &.mixitup-control-active {
       background-color: $red;
       color: #fff;
-      transition: all .5s;
+      transition: all 0.5s;
     }
   }
 }
@@ -694,7 +688,7 @@
     &.mixitup-control-active {
       background-color: $red;
       color: #fff;
-      transition: all .5s;
+      transition: all 0.5s;
     }
   }
 }
@@ -757,18 +751,18 @@
   &:hover {
     .advantages__item-images {
       background-color: $green;
-      transition: all .5s;
+      transition: all 0.5s;
     }
 
     .advantages__item-title {
       color: $green;
-      transition: all .5s;
+      transition: all 0.5s;
     }
 
     .advantages__item-images {
       g {
         fill: #fff;
-        transition: all .5s;
+        transition: all 0.5s;
       }
     }
   }
@@ -800,7 +794,6 @@
   svg {
     width: 75px;
   }
-
 }
 
 .icosvg-2 {
@@ -844,7 +837,7 @@
     max-width: 260px;
 
     span {
-      @include f700
+      @include f700;
     }
   }
 
@@ -858,7 +851,7 @@
       background-color: $green;
       border: 1px solid #fff;
       color: #fff;
-      transition: all .5s;
+      transition: all 0.5s;
     }
   }
 }
@@ -885,7 +878,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
   }
 
   &-title {
@@ -920,7 +912,7 @@
 
   &-title {
     font-size: 22px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     color: #fff;
     padding-bottom: 30px;
@@ -928,7 +920,7 @@
     position: relative;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       bottom: 0;
       left: 2px;
@@ -952,8 +944,8 @@
   position: relative;
 
   &::before {
-    content: '\f041';
-    font-family: 'icomoon';
+    content: "\f041";
+    font-family: "icomoon";
     color: $green;
     font-size: 18px;
     position: absolute;
@@ -963,7 +955,7 @@
 
 .footer__info-phone {
   &::before {
-    content: '\f095';
+    content: "\f095";
   }
 }
 
@@ -975,12 +967,12 @@
     position: relative;
 
     &::before {
-      content: '\f054';
+      content: "\f054";
       position: absolute;
       color: $green;
       left: 0;
       font-size: 18px;
-      font-family: 'icomoon';
+      font-family: "icomoon";
     }
   }
 }
@@ -1015,11 +1007,11 @@
   background-position: -1px -31px;
 }
 
-.link-linkedin {
+.link-pinterest {
   background-position: -31px -31px;
 }
 
-.link-pinterest {
+.link-linkedin {
   background-position: -61px -1px;
 }
 
@@ -1070,9 +1062,9 @@
     cursor: pointer;
 
     &::before {
-      content: '\f124';
+      content: "\f124";
       position: absolute;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       color: #fff;
       font-size: 20px;
       top: 11px;
@@ -1118,12 +1110,12 @@
     padding-left: 20px;
 
     &::before {
-      content: '\f054';
+      content: "\f054";
       position: absolute;
       color: $green;
       left: 0;
       font-size: 18px;
-      font-family: 'icomoon';
+      font-family: "icomoon";
     }
   }
 
@@ -1156,13 +1148,13 @@
     position: relative;
 
     &::before {
-      content: '\f002';
+      content: "\f002";
       position: absolute;
       color: #fff;
       left: 58px;
       top: 15px;
       font-size: 15px;
-      font-family: 'icomoon';
+      font-family: "icomoon";
     }
   }
 }
@@ -1221,7 +1213,6 @@
 .irs--flat .irs-handle {
   top: 19px;
 }
-
 
 .product-page__aside {
   .products__item-img {
@@ -1338,7 +1329,7 @@ button.icon-unsorted {
   .products__item {
     max-width: 270px;
     background-color: #fff;
-    transition: all .5s;
+    transition: all 0.5s;
   }
 
   .products__item-img {
@@ -1379,7 +1370,7 @@ button.icon-unsorted {
   li {
     display: inline-block;
 
-    &+lI {
+    &+li {
       margin-left: 6px;
     }
   }
@@ -1598,7 +1589,6 @@ button.icon-unsorted {
   }
 }
 
-
 .icon-facebook-f {
   background-color: #6370b6;
 }
@@ -1741,7 +1731,7 @@ button.icon-unsorted {
     background-color: $text;
     color: #fff;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: "Roboto", sans-serif !important;
     font-weight: 700;
     text-align: center;
     display: block;
@@ -1751,7 +1741,7 @@ button.icon-unsorted {
 
     &::before {
       font-weight: 400;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       padding-right: 8px;
     }
   }
@@ -1764,7 +1754,6 @@ button.icon-unsorted {
     background-color: #42a5f5;
   }
 }
-
 
 .product-author__box {
   padding: 25px 0;
@@ -1855,7 +1844,7 @@ button.icon-unsorted {
 
     &::before {
       content: "\f07a";
-      font-family: 'icomoon';
+      font-family: "icomoon";
       padding-right: 20px;
       color: #a6b5bb;
     }
@@ -1904,7 +1893,7 @@ button.icon-unsorted {
 }
 
 .page-404__404 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 300px;
   padding-top: 70px;
@@ -1914,7 +1903,7 @@ button.icon-unsorted {
 
   &::after {
     position: absolute;
-    content: '';
+    content: "";
     background-image: url(../images/page_404.png);
     width: 150px;
     height: 292px;
@@ -2008,7 +1997,7 @@ button.icon-unsorted {
   margin-bottom: 20px;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 44px;
     height: 4px;
@@ -2199,10 +2188,219 @@ button.icon-unsorted {
   }
 }
 
+// ================== PROFILE =================
+.profile__inner {
+  display: flex;
+}
+
+.profile__aside {
+  margin-right: 30px;
+  max-width: 270px;
+  width: 100%;
+
+  & .footer__social-link {
+    margin-bottom: 30px;
+  }
+}
+
+.profile__content {
+  width: 100%;
+}
+
+.profile-status {
+  font-size: 13px;
+  padding: 6px 9px 5px 30px;
+  border: 1px solid #d6d6d6;
+  color: #707070;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 11px;
+    top: 13px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+  }
+}
+
+.profile-on {
+  &::before {
+    background-color: $green;
+  }
+}
+
+.profile-off {
+  &::before {
+    background-color: $red;
+  }
+}
+
+.profile__aside-btn {
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+.profile__aside-message {
+  margin-bottom: 17px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  @include f500;
+  padding: 18px 10px;
+  position: relative;
+  background-color: $text;
+  box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
+
+  &::before {
+    content: '\f003';
+    font-family: 'icomoon';
+    position: absolute;
+    left: 50px;
+    top: 17px;
+  }
+}
+
+.profile__aside-following {
+  margin-bottom: 17px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  @include f700;
+  background-color: $green;
+  padding: 18px 10px;
+  box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
+}
+
+.profile__banner {
+  padding: 20px;
+  border: 1px solid #dedede;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+.profile__banner-images {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 332px;
+}
+
+.profile__items {
+  display: flex;
+  border: 1px solid #dedede;
+}
+
+.profile__item {
+  width: 25%;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 5px 17px;
+
+  &+.profile__item {
+    border-left: 1px solid #dedede;
+  }
+}
+
+.profile__item-title {
+  font-size: 14px;
+  color: $bg;
+  @include f500;
+}
+
+.profile__item-content {
+  font-size: 14px;
+  color: #707070;
+  @include f500;
+
+  &.profile__item-sales {
+    color: $bg;
+  }
+}
+
+.profile-settings {
+  .product-one__tabs.setting__tabs {
+    .tabs span {
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 500;
+      color: #707070;
+      position: relative;
+
+      &.active::before {
+        color: $green;
+      }
+
+      &::before {
+        font-family: 'icomoon';
+        position: absolute;
+        left: 27px;
+        top: 16px;
+        font-size: 14px;
+        color: #d0d0d0;
+      }
+    }
+  }
+}
+
+.personal-box {
+  background-color: #fff;
+  padding: 35px 40px 25px;
+  border: 1px solid #dedede;
+}
+
+.personal-box__title {
+  margin-bottom: 25px;
+  @include f700;
+  font-size: 20px;
+  color: $bg;
+}
+
+.personal-box__text {
+  margin-bottom: 20px;
+
+  p {
+    color: #707070;
+  }
+}
+
+.personal__box-item-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.personal__box-item-name {
+  @include f500;
+  font-size: 16px;
+  color: $bg;
+  font-style: italic;
+}
+
+.personal__box-item-number {
+  @include f700;
+  font-size: 16px;
+  color: $bg;
+}
+
+.personal__box-item-line {
+  height: 15px;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  margin-bottom: 23px;
+
+  span {
+    display: block;
+    height: 15px;
+    background-image: url(../images/pro-bar.jpg);
+    border-radius: 3px;
+  }
+}
 
 
 
 
-
-
-@import 'media';
+@import "media";
